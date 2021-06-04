@@ -7,6 +7,7 @@ const StyledMainWrapper = styled.div`
 `;
 
 const App = () => {
+  console.log("v1");
   return (
     <>
       <CanvasDom />
