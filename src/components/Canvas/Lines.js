@@ -1,6 +1,6 @@
 import * as THREE from "three";
-import React, { useRef, useMemo, useEffect } from "react";
-import { extend, useFrame, useThree } from "@react-three/fiber";
+import React, { useRef, useMemo } from "react";
+import { extend, useFrame } from "@react-three/fiber";
 import { getRandomFloat, getRandomInt } from "../../utilities/Maths";
 import { MeshLine, MeshLineMaterial } from "threejs-meshline";
 
