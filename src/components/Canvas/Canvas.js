@@ -25,6 +25,18 @@ export const CanvasDom = () => {
         <CanvasText size={40}>Press Esc key or scroll down to exit.</CanvasText>
       </Html>
 
+      <Html position={[-200, -200, 0]}>
+        <button
+          onClick={() => {
+            if (DeviceOrientationEvent) {
+              DeviceOrientationEvent.requestPermission();
+            }
+          }}
+        >
+          <CanvasText>12312311231231231223</CanvasText>
+        </button>
+      </Html>
+
       <Html position={[7, 1, 120]}>
         <CanvasText>Hi, Yekai here!</CanvasText>
       </Html>

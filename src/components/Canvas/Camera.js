@@ -20,7 +20,9 @@ export const Camera = ({ isMobile }) => {
       {isMobile ? (
         <DeviceOrientationControls camera={camera} />
       ) : (
-        <PointerLockControls />
+        <>
+          <PointerLockControls />
+        </>
       )}
     </>
   );
